@@ -1,0 +1,15 @@
+/* Combinator selectors types
+ 1 descendant selector
+2 child selector
+3 adjacent sibling selector
+4 general sibling selector*/
+/* this is an example of  descendant selector and change the background color */
+ .container1  p{ background-color: red;}
+/* this is an example of child selector  */
+.container2 >p{ background-color: blue;}
+/* This is an example of adjacent sibling selector   */
+.container3 + p { ;background-color: yellow;}
+/* This is an example of general sibling selector  */
+.container4 ~ p {background-color: green ;}
+/* set the background-image */
+#first{ background-image: url("")}
