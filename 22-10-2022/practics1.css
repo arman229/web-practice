@@ -1,0 +1,23 @@
+
+body {
+    margin: 0;
+}
+article{
+    border: 2px solid red;
+}
+div{
+    display: inline-block;
+    margin-left: 8px;
+    background-color: aqua;
+}
+ul{
+    margin: unset;
+    padding-left: unset;
+}
+li{
+    display: inline;
+
+}
+article{
+    display: inline;
+}

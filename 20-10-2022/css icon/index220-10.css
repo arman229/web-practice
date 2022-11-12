@@ -1,0 +1,97 @@
+a:link {
+    color: red;
+    font-family: Serif;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: green;
+}
+
+#container {
+    font-family: fantasy;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+
+#first {
+    cursor: auto;
+}
+
+#second {
+    cursor: crosshair;
+}
+
+#third {
+    cursor: default;
+}
+
+#fourth {
+    cursor: e-resize;
+}
+
+#fifth {
+    cursor: help;
+}
+
+#sixth {
+    cursor: move;
+}
+
+#seven {
+    cursor: n-resize;
+}
+
+#eighth {
+    cursor: ne-resize;
+}
+
+#ninth {
+    cursor: nw-resize;
+}
+
+#tenth {
+    cursor: pointer;
+}
+
+#eleven {
+    cursor: progress;
+}
+
+#twelve {
+    cursor: s-resize;
+}
+
+#thirteen {
+    cursor: se-resize;
+}
+
+#fourteen {
+    cursor: sw-resize;
+}
+
+#fifteen {
+    cursor: text;
+}
+
+#sixteen {
+    cursor: w-resize;
+}
+
+#seventeen {
+    cursor: wait;
+}
+
+ul {
+    list-style: square inside url("../cutlery.jpg");
+
+
+}
