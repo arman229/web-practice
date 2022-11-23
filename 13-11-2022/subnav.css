@@ -8,11 +8,34 @@ body {
 
 nav {
     display: flex;
-    margin-top: 2px;
 }
 
-nav a {
+a, button {
     padding: 10px;
-    outline: 1px solid red;
+    outline: none;
     text-decoration: none;
+    border: none;
+}
+button{
+    background-color: #04AA6D;
+}
+
+[class*="subnav-"] {
+    position: absolute;
+    background-color: #04AA6D;
+    display: none;
+    left: 0;
+    right: 0;
+
+}
+
+.subnav a {
+    display: inline-block;
+}
+.subnav a:hover{
+    background-color: #333333;
+}
+
+.subnav:hover [class*="subnav-"] {
+    display: block;
 }
